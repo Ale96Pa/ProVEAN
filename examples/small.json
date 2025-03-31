@@ -1,0 +1,1995 @@
+{
+  "hosts": [
+    {
+      "id": 0,
+      "hostname": "server1_domain0",
+      "ipv4": "192.168.0.1",
+      "services": {
+        "h:intel:core_i3:4170t": [],
+        "a:rubygems:rubygems:2.2.3": []
+      },
+      "cves": [
+        "CVE-2018-12169"
+      ],
+      "domain": 0,
+      "x": 58.57,
+      "y": -107.78
+    },
+    {
+      "id": 1,
+      "hostname": "server2_domain0",
+      "ipv4": "192.168.0.2",
+      "services": {
+        "a:eclipse:jetty:7.2.0": [],
+        "a:rubygems:rubygems:2.2.3": []
+      },
+      "cves": [
+        "CVE-2017-0903"
+      ],
+      "domain": 0,
+      "x": 144.52,
+      "y": -95.07000000000001
+    },
+    {
+      "id": 2,
+      "hostname": "server3_domain0",
+      "ipv4": "192.168.0.3",
+      "services": {
+        "a:apple:iwork:*": [],
+        "h:intel:core_i3:4170t": []
+      },
+      "cves": [
+        "CVE-2015-3784"
+      ],
+      "domain": 0,
+      "x": 107.87,
+      "y": -144.41
+    },
+    {
+      "id": 3,
+      "hostname": "server4_domain0",
+      "ipv4": "192.168.0.4",
+      "services": {
+        "a:rubygems:rubygems:2.2.3": [],
+        "h:intel:core_i3:4170t": []
+      },
+      "cves": [
+        "CVE-2018-3693"
+      ],
+      "domain": 0,
+      "x": 95.12,
+      "y": -58.4
+    },
+    {
+      "id": 4,
+      "hostname": "server5_domain1",
+      "ipv4": "192.168.1.5",
+      "services": {
+        "a:microsoft:remote_desktop:-": [],
+        "a:redhat:interchange:4.8.5": []
+      },
+      "cves": [
+        "CVE-2002-0874"
+      ],
+      "domain": 1,
+      "x": -155.94,
+      "y": -155.69
+    },
+    {
+      "id": 5,
+      "hostname": "server6_domain1",
+      "ipv4": "192.168.1.6",
+      "services": {
+        "a:redhat:interchange:4.8.5": [],
+        "a:microsoft:remote_desktop:-": []
+      },
+      "cves": [
+        "CVE-2002-0874"
+      ],
+      "domain": 1,
+      "x": -22.43,
+      "y": -130.91
+    },
+    {
+      "id": 6,
+      "hostname": "server7_domain1",
+      "ipv4": "192.168.1.7",
+      "services": {
+        "a:redhat:interchange:4.8.5": [],
+        "a:microsoft:remote_desktop:-": []
+      },
+      "cves": [
+        "CVE-2002-0874"
+      ],
+      "domain": 1,
+      "x": -77.98,
+      "y": -147.47
+    },
+    {
+      "id": 7,
+      "hostname": "server8_domain1",
+      "ipv4": "192.168.1.8",
+      "services": {
+        "a:sybase:adaptive_server_enterprise:12.0": [],
+        "a:microsoft:remote_desktop:-": []
+      },
+      "cves": [
+        "CVE-2005-0942"
+      ],
+      "domain": 1,
+      "x": -71.75,
+      "y": -194.99
+    },
+    {
+      "id": 8,
+      "hostname": "server9_domain1",
+      "ipv4": "192.168.1.9",
+      "services": {
+        "a:sybase:adaptive_server_enterprise:12.0": [],
+        "a:redhat:interchange:4.8.5": []
+      },
+      "cves": [
+        "CVE-2002-0874"
+      ],
+      "domain": 1,
+      "x": -107.73,
+      "y": -121.31
+    },
+    {
+      "id": 9,
+      "hostname": "server10_domain1",
+      "ipv4": "192.168.1.10",
+      "services": {
+        "h:campbellsci:cr6:-": [],
+        "a:redhat:interchange:4.8.5": []
+      },
+      "cves": [
+        "CVE-2002-0874"
+      ],
+      "domain": 1,
+      "x": -126.08,
+      "y": -208.88
+    },
+    {
+      "id": 10,
+      "hostname": "server11_domain1",
+      "ipv4": "192.168.1.11",
+      "services": {
+        "a:redhat:interchange:4.8.5": [],
+        "a:sybase:adaptive_server_enterprise:12.0": []
+      },
+      "cves": [
+        "CVE-2002-0874"
+      ],
+      "domain": 1,
+      "x": -58.54,
+      "y": -70.46000000000001
+    },
+    {
+      "id": 11,
+      "hostname": "server12_domain2",
+      "ipv4": "192.168.2.12",
+      "services": {
+        "a:oracle:micros_retail-j:13.0.0": [],
+        "a:oracle:jd_edwards_enterpriseone:8.98.2.1": []
+      },
+      "cves": [
+        "CVE-2011-0825"
+      ],
+      "domain": 2,
+      "x": 47.79,
+      "y": 83.24
+    },
+    {
+      "id": 12,
+      "hostname": "server13_domain2",
+      "ipv4": "192.168.2.13",
+      "services": {
+        "a:libav:libav:11.3": [],
+        "a:simplemedia:simplebbs:1.1": []
+      },
+      "cves": [
+        "CVE-2015-3395"
+      ],
+      "domain": 2,
+      "x": 133.74,
+      "y": 95.96000000000001
+    },
+    {
+      "id": 13,
+      "hostname": "server14_domain2",
+      "ipv4": "192.168.2.14",
+      "services": {
+        "a:simplemedia:simplebbs:1.1": [],
+        "a:oracle:micros_retail-j:13.0.0": []
+      },
+      "cves": [
+        "CVE-2018-2887"
+      ],
+      "domain": 2,
+      "x": 97.09,
+      "y": 46.62
+    },
+    {
+      "id": 14,
+      "hostname": "server15_domain2",
+      "ipv4": "192.168.2.15",
+      "services": {
+        "a:oracle:jd_edwards_enterpriseone:8.98.2.1": [],
+        "a:simplemedia:simplebbs:1.1": []
+      },
+      "cves": [
+        "CVE-2011-0803"
+      ],
+      "domain": 2,
+      "x": 84.34,
+      "y": 132.62
+    },
+    {
+      "id": 15,
+      "hostname": "server16_domain3",
+      "ipv4": "192.168.3.16",
+      "services": {
+        "a:google:chrome:24.0.1292.1": [],
+        "a:trend_micro:pc-cillin_internet_security:2005_12.0.0_0_build_1244": []
+      },
+      "cves": [
+        "CVE-2012-5148"
+      ],
+      "domain": 3,
+      "x": -63.21,
+      "y": -22.45
+    },
+    {
+      "id": 16,
+      "hostname": "server17_domain3",
+      "ipv4": "192.168.3.17",
+      "services": {
+        "a:trend_micro:pc-cillin_internet_security:2005_12.0.0_0_build_1244": [],
+        "a:openafs:openafs:1.5.74": []
+      },
+      "cves": [
+        "CVE-2007-0851"
+      ],
+      "domain": 3,
+      "x": -40.72,
+      "y": 53.02
+    },
+    {
+      "id": 17,
+      "hostname": "server18_domain3",
+      "ipv4": "192.168.3.18",
+      "services": {
+        "a:openafs:openafs:1.5.74": [],
+        "a:google:chrome:24.0.1292.1": []
+      },
+      "cves": [
+        "CVE-2012-5153"
+      ],
+      "domain": 3,
+      "x": 37.99,
+      "y": 55.27
+    },
+    {
+      "id": 18,
+      "hostname": "server19_domain3",
+      "ipv4": "192.168.3.19",
+      "services": {
+        "a:google:chrome:24.0.1292.1": [],
+        "a:openafs:openafs:1.5.74": []
+      },
+      "cves": [
+        "CVE-2013-1795"
+      ],
+      "domain": 3,
+      "x": 64.17,
+      "y": -18.97
+    },
+    {
+      "id": 19,
+      "hostname": "server20_domain3",
+      "ipv4": "192.168.3.20",
+      "services": {
+        "a:trend_micro:pc-cillin_internet_security:2005_12.0.0_0_build_1244": [],
+        "a:google:chrome:24.0.1292.1": []
+      },
+      "cves": [
+        "CVE-2013-0833"
+      ],
+      "domain": 3,
+      "x": 1.72,
+      "y": -66.93
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      19
+    ],
+    [
+      0,
+      18
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      13
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      18
+    ],
+    [
+      3,
+      13
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      3,
+      19
+    ],
+    [
+      19,
+      0
+    ],
+    [
+      19,
+      3
+    ],
+    [
+      19,
+      5
+    ],
+    [
+      19,
+      10
+    ],
+    [
+      19,
+      15
+    ],
+    [
+      19,
+      18
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      18,
+      3
+    ],
+    [
+      18,
+      13
+    ],
+    [
+      18,
+      17
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      13,
+      3
+    ],
+    [
+      13,
+      5
+    ],
+    [
+      13,
+      10
+    ],
+    [
+      13,
+      11
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      11,
+      3
+    ],
+    [
+      11,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      12,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      5,
+      19
+    ],
+    [
+      5,
+      13
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      15,
+      8
+    ],
+    [
+      15,
+      10
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      14,
+      11
+    ],
+    [
+      14,
+      12
+    ],
+    [
+      14,
+      13
+    ],
+    [
+      17,
+      11
+    ],
+    [
+      17,
+      13
+    ],
+    [
+      17,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      16,
+      15
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2011-0803",
+      "sourceIdentifier": "secalert_us@oracle.com",
+      "published": "2011-04-20T03:14:06.003",
+      "lastModified": "2011-04-20T04:00:00.000",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "MEDIUM",
+              "authentication": "NONE",
+              "confidentialityImpact": "NONE",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 5.8
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 8.6,
+            "impactScore": 4.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-0803",
+      "v2score": 5.8,
+      "v2vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 8.6,
+      "v2impactScore": 4.9,
+      "score": [
+        "V2",
+        5.8,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2011-0825",
+      "sourceIdentifier": "secalert_us@oracle.com",
+      "published": "2011-04-20T10:55:01.450",
+      "lastModified": "2012-08-03T04:00:00.000",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "MEDIUM",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 6.8
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 8.6,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-0825",
+      "v2score": 6.8,
+      "v2vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 8.6,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        6.8,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2002-0874",
+      "sourceIdentifier": "cve@mitre.org",
+      "published": "2002-09-05T04:00:00.000",
+      "lastModified": "2008-09-10T19:13:05.603",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 5.0
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 10.0,
+            "impactScore": 2.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-0874",
+      "v2score": 5.0,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 10.0,
+      "v2impactScore": 2.9,
+      "score": [
+        "V2",
+        5.0,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2005-0441",
+      "sourceIdentifier": "cve@mitre.org",
+      "published": "2004-12-22T05:00:00.000",
+      "lastModified": "2017-07-11T01:32:17.813",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "COMPLETE",
+              "integrityImpact": "COMPLETE",
+              "availabilityImpact": "COMPLETE",
+              "baseScore": 10.0
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 10.0,
+            "impactScore": 10.0,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": true,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2005-0441",
+      "v2score": 10.0,
+      "v2vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+      "v2severity": "HIGH",
+      "v2exploitability": 10.0,
+      "v2impactScore": 10.0,
+      "score": [
+        "V2",
+        10.0,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2005-0942",
+      "sourceIdentifier": "cve@mitre.org",
+      "published": "2005-05-02T04:00:00.000",
+      "lastModified": "2017-07-11T01:32:27.750",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "NONE",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 5.0
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 10.0,
+            "impactScore": 2.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2005-0942",
+      "v2score": 5.0,
+      "v2vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 10.0,
+      "v2impactScore": 2.9,
+      "score": [
+        "V2",
+        5.0,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2007-0851",
+      "sourceIdentifier": "cve@mitre.org",
+      "published": "2007-02-08T18:28:00.000",
+      "lastModified": "2017-07-29T01:30:27.360",
+      "vulnStatus": "Modified",
+      "evaluatorImpact": "Failed exploit attempts will likely cause a denial-of-service condition.",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+              "accessVector": "NETWORK",
+              "accessComplexity": "MEDIUM",
+              "authentication": "NONE",
+              "confidentialityImpact": "COMPLETE",
+              "integrityImpact": "COMPLETE",
+              "availabilityImpact": "COMPLETE",
+              "baseScore": 9.3
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 8.6,
+            "impactScore": 10.0,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": true,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-0851",
+      "v2score": 9.3,
+      "v2vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+      "v2severity": "HIGH",
+      "v2exploitability": 8.6,
+      "v2impactScore": 10.0,
+      "score": [
+        "V2",
+        9.3,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2017-5754",
+      "sourceIdentifier": "secure@intel.com",
+      "published": "2018-01-04T13:29:00.303",
+      "lastModified": "2021-11-19T18:15:08.547",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV30": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.0",
+              "vectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+              "attackVector": "LOCAL",
+              "attackComplexity": "HIGH",
+              "privilegesRequired": "LOW",
+              "userInteraction": "NONE",
+              "scope": "CHANGED",
+              "confidentialityImpact": "HIGH",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 5.6,
+              "baseSeverity": "MEDIUM"
+            },
+            "exploitabilityScore": 1.1,
+            "impactScore": 4.0
+          }
+        ],
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:L/AC:M/Au:N/C:C/I:N/A:N",
+              "accessVector": "LOCAL",
+              "accessComplexity": "MEDIUM",
+              "authentication": "NONE",
+              "confidentialityImpact": "COMPLETE",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 4.7
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 3.4,
+            "impactScore": 6.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5754",
+      "v30score": 5.6,
+      "v30vector": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "v30severity": "MEDIUM",
+      "v30exploitability": 1.1,
+      "v30impactScore": 4.0,
+      "v2score": 4.7,
+      "v2vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 3.4,
+      "v2impactScore": 6.9,
+      "score": [
+        "V30",
+        5.6,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2018-3693",
+      "sourceIdentifier": "secure@intel.com",
+      "published": "2018-07-10T21:29:01.340",
+      "lastModified": "2022-04-18T18:15:50.777",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV31": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.1",
+              "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+              "attackVector": "LOCAL",
+              "attackComplexity": "HIGH",
+              "privilegesRequired": "LOW",
+              "userInteraction": "NONE",
+              "scope": "CHANGED",
+              "confidentialityImpact": "HIGH",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 5.6,
+              "baseSeverity": "MEDIUM"
+            },
+            "exploitabilityScore": 1.1,
+            "impactScore": 4.0
+          }
+        ],
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:L/AC:M/Au:N/C:C/I:N/A:N",
+              "accessVector": "LOCAL",
+              "accessComplexity": "MEDIUM",
+              "authentication": "NONE",
+              "confidentialityImpact": "COMPLETE",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 4.7
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 3.4,
+            "impactScore": 6.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3693",
+      "v31score": 5.6,
+      "v31vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "v31severity": "MEDIUM",
+      "v31exploitability": 1.1,
+      "v31impactScore": 4.0,
+      "v2score": 4.7,
+      "v2vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 3.4,
+      "v2impactScore": 6.9,
+      "score": [
+        "V31",
+        5.6,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2018-12169",
+      "sourceIdentifier": "secure@intel.com",
+      "published": "2018-09-21T20:29:00.233",
+      "lastModified": "2018-12-20T13:59:49.833",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV30": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.0",
+              "vectorString": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "attackVector": "PHYSICAL",
+              "attackComplexity": "LOW",
+              "privilegesRequired": "NONE",
+              "userInteraction": "NONE",
+              "scope": "CHANGED",
+              "confidentialityImpact": "HIGH",
+              "integrityImpact": "HIGH",
+              "availabilityImpact": "HIGH",
+              "baseScore": 7.6,
+              "baseSeverity": "HIGH"
+            },
+            "exploitabilityScore": 0.9,
+            "impactScore": 6.0
+          }
+        ],
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+              "accessVector": "LOCAL",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 4.6
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 3.9,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-12169",
+      "v30score": 7.6,
+      "v30vector": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "v30severity": "HIGH",
+      "v30exploitability": 0.9,
+      "v30impactScore": 6.0,
+      "v2score": 4.6,
+      "v2vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 3.9,
+      "v2impactScore": 6.4,
+      "score": [
+        "V30",
+        7.6,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2015-3784",
+      "sourceIdentifier": "product-security@apple.com",
+      "published": "2015-08-16T23:59:56.923",
+      "lastModified": "2016-12-24T02:59:15.057",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 5.0
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 10.0,
+            "impactScore": 2.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3784",
+      "v2score": 5.0,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 10.0,
+      "v2impactScore": 2.9,
+      "score": [
+        "V2",
+        5.0,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2018-2887",
+      "sourceIdentifier": "secalert_us@oracle.com",
+      "published": "2018-10-17T01:31:14.087",
+      "lastModified": "2019-10-03T00:03:26.223",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV30": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.0",
+              "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "attackVector": "NETWORK",
+              "attackComplexity": "LOW",
+              "privilegesRequired": "NONE",
+              "userInteraction": "NONE",
+              "scope": "UNCHANGED",
+              "confidentialityImpact": "LOW",
+              "integrityImpact": "LOW",
+              "availabilityImpact": "NONE",
+              "baseScore": 6.5,
+              "baseSeverity": "MEDIUM"
+            },
+            "exploitabilityScore": 3.9,
+            "impactScore": 2.5
+          }
+        ],
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "NONE",
+              "baseScore": 6.4
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 10.0,
+            "impactScore": 4.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-2887",
+      "v30score": 6.5,
+      "v30vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "v30severity": "MEDIUM",
+      "v30exploitability": 3.9,
+      "v30impactScore": 2.5,
+      "v2score": 6.4,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 10.0,
+      "v2impactScore": 4.9,
+      "score": [
+        "V30",
+        6.5,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2006-1800",
+      "sourceIdentifier": "cve@mitre.org",
+      "published": "2006-04-18T10:02:00.000",
+      "lastModified": "2017-07-20T01:30:55.270",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 7.5
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 10.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": true,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-1800",
+      "v2score": 7.5,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+      "v2severity": "HIGH",
+      "v2exploitability": 10.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        7.5,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2005-4027",
+      "sourceIdentifier": "cve@mitre.org",
+      "published": "2005-12-05T11:03:00.000",
+      "lastModified": "2008-09-20T04:41:39.187",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 7.5
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 10.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": true,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2005-4027",
+      "v2score": 7.5,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+      "v2severity": "HIGH",
+      "v2exploitability": 10.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        7.5,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2019-10247",
+      "sourceIdentifier": "emo@eclipse.org",
+      "published": "2019-04-22T20:29:00.367",
+      "lastModified": "2022-04-22T20:09:00.767",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV31": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.1",
+              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "attackVector": "NETWORK",
+              "attackComplexity": "LOW",
+              "privilegesRequired": "NONE",
+              "userInteraction": "NONE",
+              "scope": "UNCHANGED",
+              "confidentialityImpact": "LOW",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 5.3,
+              "baseSeverity": "MEDIUM"
+            },
+            "exploitabilityScore": 3.9,
+            "impactScore": 1.4
+          }
+        ],
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "NONE",
+              "baseScore": 5.0
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 10.0,
+            "impactScore": 2.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10247",
+      "v31score": 5.3,
+      "v31vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "v31severity": "MEDIUM",
+      "v31exploitability": 3.9,
+      "v31impactScore": 1.4,
+      "v2score": 5.0,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 10.0,
+      "v2impactScore": 2.9,
+      "score": [
+        "V31",
+        5.3,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2021-1669",
+      "sourceIdentifier": "secure@microsoft.com",
+      "published": "2021-01-12T20:15:32.040",
+      "lastModified": "2022-07-12T17:42:04.277",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV31": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.1",
+              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+              "attackVector": "NETWORK",
+              "attackComplexity": "LOW",
+              "privilegesRequired": "LOW",
+              "userInteraction": "NONE",
+              "scope": "UNCHANGED",
+              "confidentialityImpact": "HIGH",
+              "integrityImpact": "HIGH",
+              "availabilityImpact": "HIGH",
+              "baseScore": 8.8,
+              "baseSeverity": "HIGH"
+            },
+            "exploitabilityScore": 2.8,
+            "impactScore": 5.9
+          }
+        ],
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "SINGLE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 6.5
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 8.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-1669",
+      "v31score": 8.8,
+      "v31vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "v31severity": "HIGH",
+      "v31exploitability": 2.8,
+      "v31impactScore": 5.9,
+      "v2score": 6.5,
+      "v2vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 8.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V31",
+        8.8,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2023-0321",
+      "sourceIdentifier": "cve-coordination@incibe.es",
+      "published": "2023-01-26T21:18:07.143",
+      "lastModified": "2023-02-06T16:42:45.710",
+      "vulnStatus": "Analyzed",
+      "metrics": {
+        "cvssMetricV31": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.1",
+              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "attackVector": "NETWORK",
+              "attackComplexity": "LOW",
+              "privilegesRequired": "NONE",
+              "userInteraction": "NONE",
+              "scope": "UNCHANGED",
+              "confidentialityImpact": "HIGH",
+              "integrityImpact": "HIGH",
+              "availabilityImpact": "NONE",
+              "baseScore": 9.1,
+              "baseSeverity": "CRITICAL"
+            },
+            "exploitabilityScore": 3.9,
+            "impactScore": 5.2
+          },
+          {
+            "source": "cve-coordination@incibe.es",
+            "type": "Secondary",
+            "cvssData": {
+              "version": "3.1",
+              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "attackVector": "NETWORK",
+              "attackComplexity": "LOW",
+              "privilegesRequired": "NONE",
+              "userInteraction": "NONE",
+              "scope": "UNCHANGED",
+              "confidentialityImpact": "HIGH",
+              "integrityImpact": "HIGH",
+              "availabilityImpact": "NONE",
+              "baseScore": 9.1,
+              "baseSeverity": "CRITICAL"
+            },
+            "exploitabilityScore": 3.9,
+            "impactScore": 5.2
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0321",
+      "v31score": 9.1,
+      "v31vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "v31severity": "CRITICAL",
+      "v31exploitability": 3.9,
+      "v31impactScore": 5.2,
+      "score": [
+        "V31",
+        9.1,
+        "CRITICAL"
+      ]
+    },
+    {
+      "id": "CVE-2017-0903",
+      "sourceIdentifier": "support@hackerone.com",
+      "published": "2017-10-11T18:29:00.583",
+      "lastModified": "2019-10-09T23:21:10.290",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV30": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "3.0",
+              "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "attackVector": "NETWORK",
+              "attackComplexity": "LOW",
+              "privilegesRequired": "NONE",
+              "userInteraction": "NONE",
+              "scope": "UNCHANGED",
+              "confidentialityImpact": "HIGH",
+              "integrityImpact": "HIGH",
+              "availabilityImpact": "HIGH",
+              "baseScore": 9.8,
+              "baseSeverity": "CRITICAL"
+            },
+            "exploitabilityScore": 3.9,
+            "impactScore": 5.9
+          }
+        ],
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 7.5
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 10.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-0903",
+      "v30score": 9.8,
+      "v30vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "v30severity": "CRITICAL",
+      "v30exploitability": 3.9,
+      "v30impactScore": 5.9,
+      "v2score": 7.5,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+      "v2severity": "HIGH",
+      "v2exploitability": 10.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V30",
+        9.8,
+        "CRITICAL"
+      ]
+    },
+    {
+      "id": "CVE-2015-3395",
+      "sourceIdentifier": "cve@mitre.org",
+      "published": "2015-06-16T16:59:04.237",
+      "lastModified": "2017-07-01T01:29:16.327",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "MEDIUM",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 6.8
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 8.6,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": true
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3395",
+      "v2score": 6.8,
+      "v2vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 8.6,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        6.8,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2013-1794",
+      "sourceIdentifier": "secalert@redhat.com",
+      "published": "2013-03-14T03:13:37.480",
+      "lastModified": "2017-08-29T01:33:11.200",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "SINGLE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 6.5
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 8.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-1794",
+      "v2score": 6.5,
+      "v2vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 8.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        6.5,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2013-1795",
+      "sourceIdentifier": "secalert@redhat.com",
+      "published": "2013-03-14T03:13:40.593",
+      "lastModified": "2017-08-29T01:33:11.293",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "NONE",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 5.0
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 10.0,
+            "impactScore": 2.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-1795",
+      "v2score": 5.0,
+      "v2vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 10.0,
+      "v2impactScore": 2.9,
+      "score": [
+        "V2",
+        5.0,
+        "MEDIUM"
+      ]
+    },
+    {
+      "id": "CVE-2012-5148",
+      "sourceIdentifier": "cve-coordination@google.com",
+      "published": "2013-01-15T21:55:01.447",
+      "lastModified": "2018-10-30T16:27:33.937",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 7.5
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 10.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-5148",
+      "v2score": 7.5,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+      "v2severity": "HIGH",
+      "v2exploitability": 10.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        7.5,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2012-5153",
+      "sourceIdentifier": "cve-coordination@google.com",
+      "published": "2013-01-15T21:55:01.680",
+      "lastModified": "2018-10-30T16:27:33.937",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 7.5
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 10.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-5153",
+      "v2score": 7.5,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+      "v2severity": "HIGH",
+      "v2exploitability": 10.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        7.5,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2012-5154",
+      "sourceIdentifier": "cve-coordination@google.com",
+      "published": "2013-01-15T21:55:01.713",
+      "lastModified": "2018-10-30T16:27:33.937",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "PARTIAL",
+              "integrityImpact": "PARTIAL",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 7.5
+            },
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 10.0,
+            "impactScore": 6.4,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-5154",
+      "v2score": 7.5,
+      "v2vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+      "v2severity": "HIGH",
+      "v2exploitability": 10.0,
+      "v2impactScore": 6.4,
+      "score": [
+        "V2",
+        7.5,
+        "HIGH"
+      ]
+    },
+    {
+      "id": "CVE-2013-0833",
+      "sourceIdentifier": "cve-coordination@google.com",
+      "published": "2013-01-15T21:55:02.103",
+      "lastModified": "2018-10-30T16:27:33.937",
+      "vulnStatus": "Modified",
+      "metrics": {
+        "cvssMetricV2": [
+          {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "cvssData": {
+              "version": "2.0",
+              "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "accessVector": "NETWORK",
+              "accessComplexity": "LOW",
+              "authentication": "NONE",
+              "confidentialityImpact": "NONE",
+              "integrityImpact": "NONE",
+              "availabilityImpact": "PARTIAL",
+              "baseScore": 5.0
+            },
+            "baseSeverity": "MEDIUM",
+            "exploitabilityScore": 10.0,
+            "impactScore": 2.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false
+          }
+        ]
+      },
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-0833",
+      "v2score": 5.0,
+      "v2vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+      "v2severity": "MEDIUM",
+      "v2exploitability": 10.0,
+      "v2impactScore": 2.9,
+      "score": [
+        "V2",
+        5.0,
+        "MEDIUM"
+      ]
+    }
+  ]
+}

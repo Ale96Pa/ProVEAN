@@ -1,0 +1,28 @@
+FROM python:3.12.4-bookworm
+
+# Before copying other things...
+WORKDIR /app
+# Create a venv for the python packages with the version 
+RUN python3 -m venv /app/venv
+# Activate the venv
+ENV PATH="/app/venv/bin:$PATH"
+# Install the python packages
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+
+WORKDIR /app
+# Copy the data relevant to the client
+COPY client/dist /app/client/dist
+# Copy the data relevant to the server
+COPY server /app/server
+COPY progag /app/progag
+COPY app.py /app/app.py
+COPY generate_network.py /app/generate_network.py
+# Copy the network examples
+COPY examples/small.json /app/network/small.json
+COPY examples/medium.json /app/network/medium.json
+COPY examples/large.json /app/network/large.json
+
+# Expose the port
+EXPOSE 46715
+CMD ["python3", "app.py", "network/small.json"]
