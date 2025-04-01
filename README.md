@@ -1,6 +1,6 @@
 # ProVEAN: Progressive Visual Exploration and Analysis of Network Data
 
-The objective of this project is to provide an interactive tool for visualizing and analyzing progressive attack graphs.
+The objective of this project is to provide an interactive tool for visualizing and analyzing progressive networks.
 
 ## Installation
 First of all clone the repository:
@@ -30,7 +30,7 @@ npm run dev
 npm run dev -- --open # to open the browser automatically
 ```
 
-Now, you will need to generate an attack graph model to analyze. You can skip this step if you already have one. To generate a model, move to another terminal and run:
+Now, you will need to generate a network model to analyze. You can skip this step if you already have one. To generate a model, move to another terminal and run:
 ```bash
 python generate_network.py
 ```
@@ -60,7 +60,7 @@ Navigating to [localhost:46715](http://localhost:46715) should now show the fron
 
 ## Stack
 There are two servers:
-1. The **backend server** listening on port `46715`, running on Python 3.12 and Flask, serving the WebSocket API and performing the attack path generation and analysis.
+1. The **backend server** listening on port `46715`, running on Python 3.12 and Flask, serving the WebSocket API and performing the path generation and analysis.
 2. The **frontend server** listening on port `5173`, running on Node.js, serving the Svelte 4 single-page application with the UI.
 
     > This server is only needed for development and will not be required when this software is in production. For that reason, it also proxies the WebSocket API to the backend server on path `/socket.io/`.
