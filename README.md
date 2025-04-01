@@ -1,4 +1,4 @@
-# Visualization Suite for Progressive Attack Graphs
+# ProVEAN: Progressive Visual Exploration and Analysis of Network Data
 
 The objective of this project is to provide an interactive tool for visualizing and analyzing progressive attack graphs.
 
