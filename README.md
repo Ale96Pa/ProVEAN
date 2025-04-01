@@ -4,9 +4,6 @@ The objective of this project is to provide an interactive tool for visualizing 
 
 ## Installation
 First of all clone the repository:
-```bash
-git clone git@github.com:XAIber-lab/visProgAg.git && cd visProgAg
-```
 
 Then make sure you have Node.js installed on your system. The code is currently only tested with Node.js `v20.17.0`, but anything lower _should_ work as well, as long as it supports ECMAScript modules.
 
